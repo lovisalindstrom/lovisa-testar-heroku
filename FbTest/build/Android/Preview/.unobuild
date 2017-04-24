@@ -1,0 +1,4 @@
+$: -119692887
+BuildCommand: build.sh
+RunCommand: run.sh
+Product: FbTest.apk

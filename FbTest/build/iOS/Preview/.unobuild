@@ -1,0 +1,4 @@
+$: 1257564519
+BuildCommand: build.sh
+RunCommand: run.sh
+Product: build/Release-iphoneos/FbTest.app/FbTest
