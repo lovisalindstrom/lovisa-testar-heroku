@@ -1,0 +1,22 @@
+{
+  "name": "test heroku",
+  "version": "0.0.1",
+  "description": "testing heroku",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "MainView.ux",
+  "scripts": {
+    "start": "node MainView.ux"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovisalindstrom/lovisa-testar-heroku.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "fusejs"
+  ],
+  "license": "MIT"
+}
