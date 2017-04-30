@@ -1,0 +1,36 @@
+<App>
+    <JavaScript>
+        var o = require("FuseJS/Observable");
+            var uri = "http://torekovmassage.000webhostapp.com/db_connect.php";
+        var sendRequest = function() {
+            var options = {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                             },
+                body: JSON.stringify({
+                    s_api: 's_hFAaJzszSqGMnzizAjE3',
+                    c_api: 'c_hsMMTJXs1pe5s17Yu378',
+                })
+            };
+            fetch(uri, options).then(function(response) {
+                var data = JSON.stringify(response)
+                //debug_log(data);
+                console.log(data);
+            }, function(error) {
+              debug_log(error);
+            });
+        };
+
+        module.exports = {
+          send: sendRequest,
+        };
+    </JavaScript>
+
+    <StackPanel>
+        <TopFrameBackground />
+
+        <Button Text="Send" Clicked="{send}" />
+    </StackPanel>
+</App>
