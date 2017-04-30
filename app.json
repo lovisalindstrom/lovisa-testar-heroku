@@ -1,0 +1,7 @@
+{
+	"name": "Test med Heroku",
+	"description": "Testing Heroku",
+	"repository":"https://github.com/lovisalindstrom/lovisa-testar-heroku.git",
+	"keywords": ["test", "fuse", "heroku"],
+	"image": "heroku/fusejs"
+}
